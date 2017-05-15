@@ -4,19 +4,23 @@
   "description": "simple app for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "webpack -w --progress"
   },
   "author": "lsong",
   "license": "MIT",
   "dependencies": {
+    "kelp": "^1.0.5",
+    "kelp-logger": "^1.1.0",
+    "kelp-static": "^1.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "webpack": "^2.5.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.5.1"
   },
   "keywords": [
     "react",
