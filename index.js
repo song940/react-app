@@ -8,4 +8,10 @@ app.use([
   require('kelp-static')('public'),
 ]);
 
+
+// default handler
+app.use(function(req, res, next){
+  res.end('Not Found');
+})
+
 http.createServer(app).listen(3000);
