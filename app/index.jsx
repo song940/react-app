@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'; // or 'preact';
 
 const App = props => (
-  <h1>App</h1>
+  <h1>Hello React!</h1>
 );
 
 export default App;
