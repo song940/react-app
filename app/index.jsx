@@ -1,7 +1,13 @@
 import React from 'react'; // or 'preact';
 
-const App = props => (
-  <h1>Hello React!</h1>
-);
+class Index extends React.Component {
+  render(){
+    return (
+      <div>
+        <h1>Hello React!</h1>
+      </div>
+    )
+  }
+}
 
-export default App;
+export default Index;

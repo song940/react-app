@@ -1,5 +1,5 @@
 import React    from 'react'; // or 'preact'
 import ReactDOM from 'react-dom';
-import App      from '.';
+import Index    from '.';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Index />, document.getElementById('app'));
