@@ -10,8 +10,12 @@
   "author": "lsong",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
     "kelp": "^1.0.5",
+    "kelp-body": "^1.2.2",
     "kelp-logger": "^1.1.0",
+    "kelp-send": "^1.0.3",
     "kelp-static": "^1.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
