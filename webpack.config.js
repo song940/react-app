@@ -27,6 +27,10 @@ module.exports = {
       }
     ]
   },
+  externals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM'
+  },
   optimization: {
     splitChunks: {
       minChunks: 2,
