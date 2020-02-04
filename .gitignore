@@ -1,7 +1,6 @@
 
 yarn.lock
 package-lock.json
-public/js/*
-public/css/*
 
+dist/
 node_modules/
