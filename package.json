@@ -3,15 +3,16 @@
   "version": "0.0.0",
   "description": "simple app for react",
   "main": "index.js",
+  "source": "./src/main.jsx",
   "scripts": {
-    "build": "kelp-build"
+    "build": "kbuild"
   },
   "author": "lsong",
   "license": "MIT",
   "devDependencies": {
-    "kelp-build": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@kelpjs/build": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "keywords": [
     "react",
